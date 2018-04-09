@@ -33,7 +33,7 @@ class MedienDetailAnzeigerWerkzeug
      */
 	public void setMedien(List<Medium> medien) {
 		assert medien != null : "Vorbedingung verletzt: (medien != null)";
-		boolean praktikum = true;
+		boolean praktikum = false;
 		String text = "";
 
 		for (Medium m : medien) {
